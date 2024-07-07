@@ -26,4 +26,4 @@ async def welcome(name: Name):
     return{f"Request confirmation: Welcome Ms/Ms {name.first_name}, {name.last_name}!"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, host='0.0.0.0', port=8006)
+    uvicorn.run(app, host='0.0.0.0', port=8000)
